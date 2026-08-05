@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanni Fit - Cardápio</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #ffffff;
+        color: #111111;
+        margin: 0;
+        padding: 40px 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .logo-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #111111;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+      }
+
+      .main-title {
+        font-size: 1.2em;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+      }
+
+      .menu-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px 80px;
+      }
+
+      @media (max-width: 768px) {
+        .menu-wrapper {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+      }
+
+      .category {
+        margin-bottom: 40px;
+      }
+
+      .category-title {
+        font-size: 1em;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+      }
+
+      .item {
+        margin-bottom: 22px;
+        page-break-inside: avoid;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 6px;
+      }
+
+      .item-name {
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        letter-spacing: 0.5px;
+      }
+
+      .item-price {
+        font-weight: 800;
+        font-size: 0.95em;
+        margin-left: 15px;
+      }
+
+      .item-desc {
+        font-size: 0.85em;
+        color: #444444;
+        line-height: 1.4;
+        margin: 0;
+        padding-right: 20px;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 0.75em;
+        color: #777777;
+        margin-top: 80px;
+        padding-top: 20px;
+        border-top: 1px solid #eeeeee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-icon">NF</div>
+      <h1 class="main-title">NANNI FIT</h1>
+    </div>
+
+    <div class="menu-wrapper">
+      <!-- Left Column -->
+      <div class="column-left">
+        <div class="category">
+          <div class="category-title">Shakes</div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Shake Simples</span>
+              <span class="item-price">27</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Doce de Leite, Torta de Limão, Baunilha, Morango,
+              Chocolate, Cookies, Banana, Pistache, Abacaxi, Coco.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Shake Gourmet</span>
+              <span class="item-price">34</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Chocolate - Charge, Beijinho, Banoffee, Abacaxi ao Vinho.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Shake Gourmet Especial</span>
+              <span class="item-price">40</span>
+            </div>
+            <p class="item-desc">Sabor: Barbie.</p>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="category-title">Lanches e Salgados</div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Waffles</span>
+              <span class="item-price">28</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Prestigio, Churros, Chocolate - Branco, Choconinho,
+              Bem-Casado.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Waffles Especiais</span>
+              <span class="item-price">32</span>
+            </div>
+            <p class="item-desc">Sabor: Três amores.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pão de Queijo (2 Un.)</span>
+              <span class="item-price">17</span>
+            </div>
+            <p class="item-desc">Adicional: Com chocolate (+ 11).</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pão de Queijo (4 Un.)</span>
+              <span class="item-price">28</span>
+            </div>
+            <p class="item-desc">Adicional: Com chocolate (+ 11).</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pizza Caipira</span>
+              <span class="item-price">32</span>
+            </div>
+            <p class="item-desc">
+              Adicionais: Com Chá (+ 4) | Com Fibra (+ 8).
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pizza</span>
+              <span class="item-price">30</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Frango com queijo, Atum, Marguerita. Adicionais: Com Chá
+              (+ 4) | Com Fibra (+ 8).
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Esfiha</span>
+              <span class="item-price">10</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Queijo com Cream Cheese, Frango com Requeijão.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Coxinha</span>
+              <span class="item-price">10</span>
+            </div>
+            <p class="item-desc">Sabor: Frango.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="column-right">
+        <div class="category">
+          <div class="category-title">Doces e Sobremesas</div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Bolo de Pote</span>
+              <span class="item-price">23</span>
+            </div>
+            <p class="item-desc">
+              Sabores: Doce com Ameixa, Indiano, Prestigio, Floresta Negra.
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pudim Proteico</span>
+              <span class="item-price">20</span>
+            </div>
+            <p class="item-desc">Consulte os sabores disponíveis.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Panacota</span>
+              <span class="item-price">15</span>
+            </div>
+            <p class="item-desc">Baunilha com Frutas Vermelhas.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Barrinha Proteica</span>
+              <span class="item-price">15</span>
+            </div>
+            <p class="item-desc">Sabores: Citrus Lemon, Vanilla Almond.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Pão de Mel</span>
+              <span class="item-price">12</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Bombom Proteico</span>
+              <span class="item-price">8</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="category-title">Bebidas</div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Protein Drink</span>
+              <span class="item-price">40</span>
+            </div>
+            <p class="item-desc">Morango com Amora.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Hype Drink</span>
+              <span class="item-price">30</span>
+            </div>
+            <p class="item-desc">Sabores: Amora, Uva, Maracujá, Morango.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Sunset</span>
+              <span class="item-price">23</span>
+            </div>
+            <p class="item-desc">Escolher dois: Manga, Uva, Limão.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Copo da Felicidade</span>
+              <span class="item-price">23</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Beauty Drink</span>
+              <span class="item-price">16</span>
+            </div>
+            <p class="item-desc">Sabor: Frutas Vermelhas.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Fibra Concentrate</span>
+              <span class="item-price">8</span>
+            </div>
+            <p class="item-desc">Sabores: Manga, Uva, Limão.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Chá Herbal</span>
+              <span class="item-price">8</span>
+            </div>
+            <p class="item-desc">Sabores: Original, Laranja, Canela, Limão.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Chá NRG</span>
+              <span class="item-price">6</span>
+            </div>
+            <p class="item-desc">Sabores: Original, Tropical.</p>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Água com Gás</span>
+              <span class="item-price">6</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span class="item-name">Água sem Gás</span>
+              <span class="item-price">4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">Nanni Fit - Opções saudáveis e deliciosas</div>
+  </body>
+</html>

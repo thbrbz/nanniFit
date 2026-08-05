@@ -1,0 +1,99 @@
+/* Reset básico de margens e padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  line-height: 1.4;
+  padding: 60px 40px;
+}
+
+/* Cabeçalho minimalista */
+.menu-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* Estrutura de colunas */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.menu-column {
+  flex: 1;
+  min-width: 320px;
+}
+
+/* Títulos das categorias (Shakes, Lanches, etc) */
+.category-title {
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  letter-spacing: 0.5px;
+}
+
+.menu-column h2:first-child {
+  margin-top: 0;
+}
+
+/* Estilo de cada item do cardápio */
+.menu-item {
+  margin-bottom: 22px;
+  page-break-inside: avoid;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.item-name {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.item-price {
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.item-desc {
+  font-size: 12px;
+  color: #444444;
+  max-width: 90%;
+}
+
+/* Responsividade: transforma em 1 coluna em telas menores */
+@media (max-width: 768px) {
+  body {
+    padding: 30px 20px;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
