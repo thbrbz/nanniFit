@@ -25,7 +25,7 @@ function renderizarMenu() {
 
             return `
             <div class="category">
-              <h2 class="category-title" id="${categoria.replace(/\s+/g, '-').toLowerCase()}">${categoria}</h2>
+              <h2 class="category-title">${categoria}</h2>
 
               ${produtosPorCategoria
                 .map((produto) => {
@@ -43,7 +43,8 @@ function renderizarMenu() {
                             .map((adicional) => {
                               return `
                             <p class="item-desc">
-                              + ${adicional.nome} <span style="margin-left: 5px">R$ ${adicional.preco}</span>
+                              + ${adicional.nome} <span style="margin-left: 5px; font-size: 9px;">R$ </span>
+                              ${adicional.preco}
                             </p>
                           `
                             })

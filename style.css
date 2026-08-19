@@ -45,12 +45,16 @@ body {
 
 /* Títulos das categorias */
 .category-title {
+  display: inline-block;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 25px;
-  margin-top: 40px;
+  margin-bottom: 22px;
   letter-spacing: 0.5px;
+  background-color: #7c2b6d;
+  padding: 4px 6px;
+  margin-left: 6px;
+  color: #ffffff;
 }
 
 .menu-column h2:first-child {
@@ -61,6 +65,17 @@ body {
 .menu-item {
   margin-bottom: 22px;
   page-break-inside: avoid;
+  padding: 4px 6px;
+}
+
+.menu-item:hover {
+  background-color: #7c2b6d;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover .item-desc {
+  color: #eeeeee;
 }
 
 .item-header {
@@ -89,13 +104,14 @@ body {
 .item-desc {
   font-size: 12px;
   color: #444444;
+  margin-bottom: 4px;
   max-width: 90%;
 }
 
 .footer {
   text-align: center;
   font-size: 0.75em;
-  color: #777777;
+  color: #7c2b6d;
   margin-top: 50px;
   padding-top: 20px;
   border-top: 1px solid #eeeeee;
