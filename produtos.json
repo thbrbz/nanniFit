@@ -1,0 +1,202 @@
+[
+  {
+    "categoria": "Shakes",
+    "nome": "SHAKE SIMPLES",
+    "preco": 27,
+    "descricao": "Doce de Leite, Torta de Limão, Baunilha, Morango, Chocolate, Cookies, Banana, Pistache, Abacaxi, Coco"
+  },
+  {
+    "categoria": "Shakes",
+    "nome": "SHAKE GOURMET",
+    "preco": 34,
+    "descricao": "Chocolate Charge, Beijinho, Banoffee, Abacaxi ao vinho"
+  },
+  {
+    "categoria": "Shakes",
+    "nome": "SHAKE GOURMET ESPECIAL",
+    "preco": 40,
+    "descricao": "Barbie"
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "WAFFLES",
+    "preco": 28,
+    "descricao": "Prestigio, Churros, Chocolate Branco, ChocoNinho, Bem-casado"
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "WAFFLES ESPECIAIS",
+    "preco": 32,
+    "descricao": "Três amores"
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "CREPES",
+    "preco": 28,
+    "descricao": "Chocolate, Chocolate Branco, Prestigio, Churros, ChocoNinho, Bem-casado"
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "PÃO DE QUEIJO (2 UNIDADES)",
+    "preco": "17",
+    "descricao": "",
+    "adicional": [
+      {
+        "nome": "Chocolate",
+        "preco": 11
+      }
+    ]
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "PÃO DE QUEIJO (4 UNIDADES)",
+    "preco": "28",
+    "descricao": "",
+    "adicional": [
+      {
+        "nome": "Chocolate",
+        "preco": 11
+      }
+    ]
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "PIZZA",
+    "preco": "30",
+    "descricao": "Frango com queijo, Atum, Marguerita",
+    "adicional": [
+      {
+        "nome": "Chá",
+        "preco": 4
+      },
+      {
+        "nome": "Fibra",
+        "preco": 8
+      }
+    ]
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "PIZZA CAIPIRA",
+    "preco": "32",
+    "descricao": "Caiçara, Frango com requeijão",
+    "adicional": [
+      {
+        "nome": "Chá",
+        "preco": 4
+      },
+      {
+        "nome": "Fibra",
+        "preco": 8
+      }
+    ]
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "ESFIHA",
+    "preco": "10",
+    "descricao": "Queijo com creem cheese, Frango com requeijão"
+  },
+  {
+    "categoria": "Lanches e Salgados",
+    "nome": "COXINHA",
+    "preco": "10",
+    "descricao": "Frango"
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "BOLO DE POTE",
+    "preco": "23",
+    "descricao": "Doce com Ameixa, Indiano, Prestigio, Floresta Negra"
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "PUDIM PROTEICO",
+    "preco": "20",
+    "descricao": "Vários sabores"
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "PANACOTA",
+    "preco": "15",
+    "descricao": "Baunilha com Frutas Vermelhas"
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "BARRINHA PROTÉICA",
+    "preco": "15",
+    "descricao": "Citrus Lemon, Vanilla Almond"
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "PÃO DE MEL",
+    "preco": "12",
+    "descricao": ""
+  },
+  {
+    "categoria": "Doces e Sobremesas",
+    "nome": "BOMBOM PROTÉICO",
+    "preco": "8",
+    "descricao": ""
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "PROTEIN DRINK",
+    "preco": "40",
+    "descricao": "Morango com amora"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "HYPE DRINK",
+    "preco": "30",
+    "descricao": "Amora, Uva, Maracujá, Morango"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "SUNSET",
+    "preco": "23",
+    "descricao": "Escolher dois: Manga, Uva, Limão"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "COPO DA FELICIDADE",
+    "preco": "23",
+    "descricao": ""
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "BEAUTY DRINK",
+    "preco": "16",
+    "descricao": "Frutas Vermelhas"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "FIBRA CONCENTRATE",
+    "preco": "8",
+    "descricao": "Manga, Uva, Limão"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "CHÁ HERBAL",
+    "preco": "8",
+    "descricao": "Original, Laranja, Canela, Limão"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "CHÁ NRG",
+    "preco": "6",
+    "descricao": "Original, Tropical"
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "ÁGUA COM GÁS",
+    "preco": "6",
+    "descricao": ""
+  },
+  {
+    "categoria": "Bebidas",
+    "nome": "ÁGUA SEM GÁS",
+    "preco": "4",
+    "descricao": ""
+  }
+]
